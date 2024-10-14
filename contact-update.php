@@ -14,15 +14,15 @@ $API_KEY = "";
 // Set the current API Version
 $API_VERSION = "1.3";
 // Base URL
-$BASE_URL = "https://api.staging.sitehost.nz/{$API_VERSION}";
+$BASE_URL = "https://api.sitehost.nz/{$API_VERSION}";
 // Visible in the SiteHost Control Panel next to Client name with a # prefix.
-$client_id = "213";
+$client_id = "12345";
 // Contact IDs
 $contact_ids = array(
-    "billing" => "312491966",
-    "technical" => "312491966",
-    "admin" => "312491966",
-    "registrant" => "312491966"
+    "billing" => "1235",
+    "technical" => "1235",
+    "admin" => "12345",
+    "registrant" => "12345"
 );  
 
 // Querries the SiteHost API and returns a the JSON dictionary.
